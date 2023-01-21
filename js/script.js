@@ -14,7 +14,11 @@ if (nombre == "") {
 }else{
     alert("Nombre Ingresado:"+" "+nombre)
 } 
+<<<<<<< HEAD
 
+=======
+.
+>>>>>>> 6f294e953e7263090a1030374c4f2154d6e70494
 
 console.log("Nombre Ingresado:" + " " + nombre)
 
@@ -57,6 +61,7 @@ for (let turno = 1; turno <= 1; turno++) {
     }
     alert(" Turno  N° "+turno+" Nombre: "+ nombre +" "+ apellido);
 }
+<<<<<<< HEAD
 
 function aviso(direccion) {
     let saludo2 = "con DNI y numero de turno."
@@ -69,3 +74,5 @@ aviso("Precentarse en AV Cordoba 2677 de 9:00 hs a 15:00" )
 
 
 
+=======
+>>>>>>> 6f294e953e7263090a1030374c4f2154d6e70494
