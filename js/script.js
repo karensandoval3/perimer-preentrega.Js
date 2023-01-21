@@ -14,7 +14,7 @@ if (nombre == "") {
 }else{
     alert("Nombre Ingresado:"+" "+nombre)
 } 
-.
+
 
 console.log("Nombre Ingresado:" + " " + nombre)
 
@@ -57,3 +57,15 @@ for (let turno = 1; turno <= 1; turno++) {
     }
     alert(" Turno  N° "+turno+" Nombre: "+ nombre +" "+ apellido);
 }
+
+function aviso(direccion) {
+    let saludo2 = "con DNI y numero de turno."
+    alert(direccion +" "+ saludo2 + " " + "¡¡Muchas gracias!!")
+    
+}
+aviso("Precentarse en AV Cordoba 2677 de 9:00 hs a 15:00" )
+
+
+
+
+
