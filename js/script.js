@@ -66,3 +66,14 @@ function aviso(direccion) {
 aviso("Precentarse en AV Cordoba 2677 de 9:00 hs a 15:00")
 
 
+function Persona(nombre, apellido, edad, correo) {
+    this.nombre = nombre;
+    this.edad   = apellido;
+    this.calle  = edad;
+    this.correo = correo;
+    this.saludo = function(){ console.log(`Bienvenido/a ${this.nombre}`)}
+}
+const persona1 = new Persona(nombre, apellido, edad, correo);
+
+persona1.saludo();
+
