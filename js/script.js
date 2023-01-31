@@ -78,10 +78,18 @@ const persona1 = new Persona(nombre, apellido, edad, correo);
 persona1.saludo();
 
 
-const Especialidades= ["Odontologia", "Endocrinologia", "Traumatologia", "oftalmologia"]
+const Especialidades= ["Odontologia", "Endocrinologia", "Traumatologia", "Oftalmologia"]
 Especialidades.push("psicologia")
 console.log(Especialidades.length)
 console.log(Especialidades)
+
+function buscarGenero(){
+
+    let generoBuscar = promtp("")
+    
+    let resultado = personas.filter(persona =>  persona.genero === generoBuscar)
+}
+
 
 
 
