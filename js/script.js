@@ -77,3 +77,12 @@ const persona1 = new Persona(nombre, apellido, edad, correo);
 
 persona1.saludo();
 
+
+const Especialidades= ["Odontologia", "Endocrinologia", "Traumatologia", "oftalmologia"]
+Especialidades.push("psicologia")
+console.log(Especialidades.length)
+console.log(Especialidades)
+
+
+
+
